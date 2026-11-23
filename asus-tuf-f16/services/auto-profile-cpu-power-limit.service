@@ -5,5 +5,5 @@ StartLimitIntervalSec=0
 
 [Service]
 Type=oneshot
-ExecStart=python /home/patrickf/Scripts/auto-profile-cpu-power-limit.py
-ExecStartPost=python /home/patrickf/Scripts/asus-profile-osd.py
+ExecStart=auto-profile-cpu-power-limit.py
+ExecStartPost=asus-profile-osd.py
