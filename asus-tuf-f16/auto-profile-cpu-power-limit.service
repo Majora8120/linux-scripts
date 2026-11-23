@@ -1,0 +1,9 @@
+[Unit]
+Description=Apply CPU Power Limits based on ASUS Profile
+After=multi-user.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=oneshot
+ExecStart=python /home/patrickf/Scripts/auto-profile-cpu-power-limit.py
+ExecStartPost=python /home/patrickf/Scripts/asus-profile-osd.py

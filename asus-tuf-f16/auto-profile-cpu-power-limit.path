@@ -1,0 +1,8 @@
+[Unit]
+Description=Watch platform_profile changes for CPU power limits
+
+[Path]
+PathModified=/sys/firmware/acpi/platform_profile
+
+[Install]
+WantedBy=multi-user.target
