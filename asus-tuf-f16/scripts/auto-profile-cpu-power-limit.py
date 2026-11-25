@@ -22,15 +22,15 @@ MULTIPLIER = 1_000_000
 # Power limits (watts)
 PROFILES = {
     "quiet": {
-        "pl1": 20,
-        "pl2": 30,
+        "pl1": 15,
+        "pl2": 20,
     },
     "balanced": {
         "pl1": 35,
         "pl2": 45,
     },
     "performance": {
-        "pl1": 55,
+        "pl1": 65,
         "pl2": 80,
     },
 }
